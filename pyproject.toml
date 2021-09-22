@@ -4,10 +4,13 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "loadenv"
-version = "0.1"
+version = "0.1.1"
 authors = [{name = "Jeremiah Paige", email = "ucodery@gmail.com"}]
 requires-python = ">=3.6"
+readme = "README.md"
+license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
+keywords = ["env", "envvar", "environ", "environment", "environment variable"]
 dynamic = ["description"]
 
 [project.optional-dependencies]

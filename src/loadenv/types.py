@@ -76,7 +76,7 @@ def _cast_bool(maybe_bool: str) -> bool:
 
 
 def _cast_bytes(maybe_bytes: str) -> bytes:
-    return bytes(maybe_bytes, "utf-8")
+    return bytes(maybe_bytes, sys.getfilesystemencoding())
 
 
 def _cast_list(maybe_list: str) -> List[str]:
